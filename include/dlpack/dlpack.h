@@ -110,7 +110,7 @@ typedef enum {
    * device. Either a call to oneAPI runtime is required to determine the
    * device type, the USM allocation type and the sycl context it is
    * bound to, or the requisite information should be available via the
-   * manager_ctx.
+   * `manager_ctx`.
    */
   kDLOneAPI = 14,
   /*! \brief GPU support for next generation WebGPU standard. */
